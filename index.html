@@ -1,52 +1,71 @@
-<!DOCTYPE html> 
-<html lang="zh"> 
-<head> 
-	<meta charset="UTF-8" /> 
-	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" /> 
-	<meta name="apple-mobile-web-app-capable" content="yes" /> 
- 
-	<title>Rubinese: Ruby 语言中文资讯</title> 
- 
-	<link rel="stylesheet" href="/assets/styles/style.css" /> 
- 
-	<link rel="shortcut icon" href="/favicon.ico" />  
-	
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+
+	<title>Rubinese</title>
+
+	<link rel="stylesheet" href="/assets/styles/style.css" />
+
+	<link rel="shortcut icon" href="/favicon.ico" />
+
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-</head> 
+</head>
 <body>
-</body>
-	<div id="container">
-		<header>
+	<div class="wrapper">
+		<header class="site-header">
 			<hgroup>
 				<h1><a class="ir" href="http://rubinese.com" title="Rubinese">Rubinese</a></h1>
-				<h2>Ruby 语言中文资讯</h2>
+				<h2><code>RubyRelatedBooks.to_chinese</code></h2>
 			</hgroup>
 		</header>
-		<div id="content">
-			<section id="projects">
-				<h1 class="visuallyhidden">我们的项目</h1>
-				<a href="https://github.com/oipn4e2/docrails" title="docrails on Github">
-					<h2>Rails 指南翻译</h2>
-					<img src="/assets/images/rails.png" alt="" title="" />
-					<p>Rails 指南是初级必读文章，我们正在 Github 中协同官方进行中文翻译，欢迎您加入</p>
-				</a>
-				<a href="https://twitter.com/#!/rubinese_tang" title="Rubinese 官方微博">
-					<h2>Ruby 资讯传播</h2>
-					<img src="/assets/images/twitter.png" alt="" title="" />
-					<p>网罗全世界的 Ruby 资讯，面向全体中文社区播报，请关注我们：@rubinese_tang</p>
-				</a>
-				<a href="/railscastscn.html" title="RailCasts 字幕制作">
-					<h2>RailCasts 字幕制作</h2>
-					<img src="/assets/images/railscasts.png" alt="" title="" />
-					<p>RailsCasts 是关于 Rails 的优秀播客，我们将对其进行中英双语字幕制作。</p>
-				</a>
+
+		<div class="content">
+			<section id="rails-tutorial" class="panel">
+				<header class="panel-header">
+					<h1><span>第一弹</span>《Ruby on Rails Tutorial》原书第二版</h1>
+					<ul class="pj-meta">
+						<li><a href="https://github.com/AndorChen/rails-tutorial-2nd-cn" title="本书 Markdown 格式文本" target="_blank">文稿</a></li>
+						<li><a href="http://about.ac/rails-tutorial-2nd-cn/" title="HTML 版在线阅读" target="_blank">在线阅读</a></li>
+						<li><a href="http://creativecommons.org/licenses/by-sa/3.0/" title="CC 3.0 BY-SA 协议" target="_blank">发布协议</a></li>
+					</ul>
+				</header>
+				<div class="panel-content">
+					<div class="pj-cover">
+						<img src="assets/images/rails-tutorial-cover.png" width="116" height="150" alt="Ruby on Rails 教程" title="Ruby on Rails 教程" />
+						<p>作者：[美]Michael Hartl <br />翻译：Andor Chen</p>
+					</div>
+					<div class="pj-detail">
+						<div class="pj-summary">
+
+						</div>
+						<ol class="toc">
+							<li>第 1 章 从零到部署</li>
+							<li>第 2 章 演示程序</li>
+							<li>第 3 章 基本静态的页面</li>
+							<li>第 4 章 Rails 背后的 Ruby</li>
+							<li>第 5 章 完善布局</li>
+							<li>第 6 章 用户模型</li>
+							<li>第 7 章 用户注册</li>
+							<li>第 8 章 登录和退出</li>
+							<li>第 9 章 更新、显示和删除用户</li>
+							<li>第 10 章 用户的微博（翻译中）</li>
+							<li>第 11 章 用户间互相关注（未翻译）</li>
+						</ol>
+					</div>
+					<div class="clearfix"></div>
+				</div>
 			</section>
 		</div>
-		<footer>
-			<p><a href="/#">关于我们</a> | <a href="mailto:rubinese.tang@gmail.com">联系我们</a></p>
-			<p>&copy;2011 Rubinese.com</p>
+
+		<footer class="site-footer">
+			<p><a href="https://twitter.com/rubinese_tang" title="关注我们的 Twitter" target="_blank">@rubinese_tang</a> | <a href="/about.html" title="关于我们">关于我们</a> | <a href="mailto:rubinese.tang@gmail.com" title="写信给我们">联系我们</a></p>
+			<p>&copy;2012 Rubinese.com</p>
 		</footer>
 	</div>
+</body>
 </html>
