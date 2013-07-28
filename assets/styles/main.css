@@ -1,0 +1,142 @@
+/*
+ * Stylesheet for rubinese.com
+ * Author: Andor
+ * Site: http://about.ac
+ * version: 20111001
+ *
+ */
+
+/* =======
+   Global
+ =======*/
+body {
+  background: #acacac;
+  font:16px/1.6 Palatino, "Palatino Linotype", Georgia, Times, "Times New Roman", serif;
+}
+
+a:link, a:visited {
+  color: #444;
+}
+a:hover, a:focus, a:active {
+  color: #000;
+}
+p {
+  margin: 12px 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 800px;
+}
+
+
+/* =======
+   Header
+ =======*/
+
+.header .logo {
+  margin: 40px 0 10px;
+  text-align: center;
+}
+
+/* =======
+   Content
+ =======*/
+
+.content {
+
+}
+
+.panel {
+  background: #fff;
+  margin: 40px 0;
+  padding: 30px;
+  position: relative;
+}
+
+/* Project */
+
+.pj-num {
+  background: #999;
+  color: #666;
+  display:block;
+  width: 40px;
+  height:40px;
+  line-height: 40px;
+  text-align: center;
+  font-weight: normal;
+  position: absolute;
+  top: 30px;
+  left: -40px;
+}
+
+.pj-title {
+  font-size:20px;
+  margin: 0;
+  height: 40px;
+  line-height: 40px;
+}
+
+.pj-logo {
+  float: right;
+  margin: -60px 0 15px 15px;
+  width: 118px;
+  height: 118px;
+}
+
+.pj-details ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.pj-details li {
+  display: block;
+  float: left;
+  margin-right: 15px;
+}
+
+.pj-meta {
+  color: #999;
+  font-size: 12px;
+}
+
+/* Button */
+
+a.btn {
+  color: #fff;
+  display: inline-block;
+  padding: 4px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+a.youku-btn {
+  background: #2980B9;
+}
+
+a.youku-btn:hover {
+  background: #3498DB;
+}
+
+a.github-btn {
+  background: #7F8C8D;
+}
+
+a.github-btn:hover {
+  background: #95A5A6;
+}
+
+/* =======
+   Footer
+ =======*/
+
+.footer {
+  font-size: 12px;
+  text-align: center;
+}
+
+.footer p {
+  margin: 6px 0;
+}
